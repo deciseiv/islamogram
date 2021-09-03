@@ -1,40 +1,37 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Islamogram</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <img src="https://preview.redd.it/ooj52q3rfxg61.jpg?width=640&crop=smart&auto=webp&s=2e0ad1a3b5d602bd03d7e6b214631646ed96a089" alt="">
-        <h1>Islamogram</h1>
-        <h2>Intragram but for Based Muslims ❤</h2>
-        <hr>
-        <h2>Some members of the <em>Islamogram</em> community</h2>
-        <ol>
-            <li>
-                <h3>khaleeji.posting</h3>
-                <a href="https://www.instagram.com/khaleeji.posting/"><img src="https://instagram.fdoh2-2.fna.fbcdn.net/v/t51.2885-15/e15/s240x240/241121330_1145873832569605_857200464531068731_n.jpg?_nc_ht=instagram.fdoh2-2.fna.fbcdn.net&_nc_cat=101&_nc_ohc=jWViTb73--kAX8eQXfG&edm=ABJHkxYAAAAA&ccb=7-4&oh=c27fee3bc5484468ce7a7fb81a50d767&oe=6139A32D&_nc_sid=fa978c&ig_cache_key=MjY1NDY2Njc1MjgwNTYyNjczMg%3D%3D.2-ccb7-4" alt=""></a>
-            </li>
-            <li>
-                <h3>muslim_brotherr</h3>
-                <a href="https://www.instagram.com/muslim_brotherr/"><img src="https://instagram.fdoh2-2.fna.fbcdn.net/v/t51.2885-15/e15/s240x240/241161120_399309414909293_5766716691749574542_n.jpg?_nc_ht=instagram.fdoh2-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=2tYa-SRW6_IAX8NvCD1&edm=ABJHkxYAAAAA&ccb=7-4&oh=61f9e023580494928c98593877bed6d6&oe=61382C26&_nc_sid=fa978c&ig_cache_key=MjY1NDY3MTM0MjAwMzMyMjc5Mg%3D%3D.2-ccb7-4" alt="not found"></a>
-            </li>
-            <li>
-                <h3>jaaar.16</h3>
-                <a href="https://www.instagram.com/jaaar.16/"><img src="https://instagram.fdoh2-2.fna.fbcdn.net/v/t51.2885-15/e15/s240x240/241162634_989494585235839_6480771133775186159_n.jpg?_nc_ht=instagram.fdoh2-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=cnVUARp-RCAAX8tK-4C&edm=ABJHkxYAAAAA&ccb=7-4&oh=aea9ed86dc0f8e228b2d940eba5dea2b&oe=6138764F&_nc_sid=fa978c&ig_cache_key=MjY1NDY3MTk1OTMxMjYyMjQ2Mg%3D%3D.2-ccb7-4" alt=""></a>
-            </li>
-            <li>
-                <h3>indomalazianstronk</h3>
-                <a href="https://www.instagram.com/indomalazianstronk/"><img src="https://instagram.fdoh2-2.fna.fbcdn.net/v/t51.2885-15/e15/s240x240/241313593_1017600022374878_2730690837273359300_n.jpg?_nc_ht=instagram.fdoh2-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=e7dNKDcsR-cAX-wZ0jM&edm=ABJHkxYAAAAA&ccb=7-4&oh=ca521a730c67fce9ecd0a43b7f3ae687&oe=61393DFE&_nc_sid=fa978c&ig_cache_key=MjY1NDY3MzA1MDgxMzE5MzQxNw%3D%3D.2-ccb7-4" alt=""></a>
-            </li>
-            <li>
-                <h3>muslim_djinn.v4</h3>
-                <a href="https://www.instagram.com/muslim_djinn.v4/"><img src="https://instagram.fdoh2-2.fna.fbcdn.net/v/t51.2885-15/e15/p240x240/241113094_528565471582632_5507535007269306615_n.jpg?_nc_ht=instagram.fdoh2-2.fna.fbcdn.net&_nc_cat=100&_nc_ohc=s9htzeTqZWoAX-W3hdW&edm=ABJHkxYAAAAA&ccb=7-4&oh=56ea3f88026999c8734c4772a5e6b6af&oe=613949F4&_nc_sid=fa978c&ig_cache_key=MjY1NDY3NDE1NzE3ODE5MzgwMw%3D%3D.2-ccb7-4" alt=""></a>
-            </li>
-        </ul>
-        <hr>
-        <h2>For more based islamogrammers, click <a href="">here</a></h2>
+body {
+    background-color: #7FC8A9;
+    text-align: center;
+}
 
-    </body>
-</html>
+hr {
+    border-top: 1px dotted #D5EEBB;
+    background-color: #46742b;
+}
+
+h1 {
+    margin: 0 auto 100px auto;
+    width: 40%;
+    font-family: cursive;
+    color: #444941;
+}
+
+h2 {
+    font-family: sans-serif;
+    width: 40%;
+    color: #5F7A61;
+}
+
+h3 {
+    width: 40%;
+    font-family: sans-serif;
+    color: #5F7A61;   
+}
+
+ol li{
+    width: 40%;
+    text-align: justify;
+    color: #46742b;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-image: url(abu.png);
+}
