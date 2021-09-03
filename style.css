@@ -1,0 +1,44 @@
+body {
+    background-color: #7FC8A9;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px dotted #D5EEBB;
+    background-color: #46742b;
+}
+
+img {
+    width: 20%;
+}
+
+.anon{
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0 auto 200px auto;
+    font-family: cursive;
+    color: #444941;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #5F7A61;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: #5F7A61;   
+}
+
+ol li{
+    text-align: justify;
+    color: #46742b;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-image: url(abu.png);
+}
