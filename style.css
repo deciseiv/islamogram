@@ -5,23 +5,24 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 0px auto 0 auto;
   font-family: "Sacramento", cursive;
-  color: #66bfbf;
+  color: red;
   font-size: 562.5%;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lucida Console", Courier, monospace;
   font-size: 2.5rem;
   color: #66bfbf;
   font-weight: normal;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lucida Console", Courier, monospace;
   color: #11999e;
+  font-size: 30px;
 }
 
 a {
@@ -36,29 +37,29 @@ a:hover {
 
 p {
   line-height: 2;
+  font-size: 20px;
 }
 
 .profile {
-  width: 50%;
+  width: 80%;
   margin: 50px auto 0px auto;
 }
 
 .intro {
-  width: 50%;
+  width: 100%;
   margin: 0 auto 10px auto;
+  font-size: 20px;
 }
 
 
 .skillRow {
   margin: 100px auto 100px auto;
-  width: 50%;
+  width: 80%;
   text-align: left;
 }
 
 .maths-img {
-  float: left;
-  margin-right: 30px;
-  width: 30%;
+  width: 80%;
 }
 
 .maths-img:hover {
@@ -66,9 +67,7 @@ p {
 }
 
 .code-img {
-  float: right;
-  margin-left: 30px;
-  width: 30%;
+  width: 80%;
 }
 
 .code-img:hover {
@@ -78,7 +77,12 @@ p {
 .topContainer {
   background-color: #eaf6f6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 0px;
+  width: 175%;
+}
+
+.middleContainer {
+  width: 175%;
 }
 
 .bottomContainer {
@@ -86,6 +90,7 @@ p {
   margin-bottom: 0;
   line-height: 2;
   padding: 20px 0 20px;
+  width: 175%;
 }
 
 .footerLink {
@@ -93,17 +98,11 @@ p {
 }
 
 .topCloud {
-  width: 10%;
-  position: absolute;
-  right: 300px;
-  top: 50px;
+  opacity: 0;
 }
 
 .bottomCloud {
-  width: 10%;
-  position: absolute;
-  left: 200px;
-  top: 300px;
+  opacity: 0;
 }
 
 #CV {
@@ -115,11 +114,11 @@ hr {
   border-width: 10px;
   border-style: dotted none none;
   height: 0px;
-  width: 5%;
+  width: 15%;
 }
 
 .contactMe {
-  width: 40%;
+  width: 80%;
   margin: 0 auto;
 }
 

@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <title>Islamogram</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <?php if(!$is_mobile) { ?>
+      <link type="text/css" rel="stylesheet" href="enhanced.css" />
+    <?php } else { ?>
+      <link type="text/css" rel="stylesheet" href="style.css" />
+    <?php } ?>
+
   </head>
   <body>
     <div class="topContainer">
@@ -22,7 +27,7 @@
       />
       <img style="padding-top: 20px" src="images\mountain.png" alt="mountain image" />
     </div>
-    <div class="middle-container">
+    <div class="middleContainer">
       <div class="profile">
         <img src="images/flag.png" alt="flag picture" class="profile"/>
         <h2>Welcome to the official Islamogram website.</h2>
